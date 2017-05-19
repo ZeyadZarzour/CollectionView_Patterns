@@ -15,6 +15,14 @@
 		F239CCF91ECF3CFF00BA741E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F239CCF71ECF3CFF00BA741E /* LaunchScreen.storyboard */; };
 		F239CD041ECF3CFF00BA741E /* CollectionViewPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F239CD031ECF3CFF00BA741E /* CollectionViewPatternsTests.m */; };
 		F239CD0F1ECF3CFF00BA741E /* CollectionViewPatternsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F239CD0E1ECF3CFF00BA741E /* CollectionViewPatternsUITests.m */; };
+		F239CD241ECF3D5600BA741E /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F239CD1D1ECF3D5600BA741E /* angry_birds_cake.jpg */; };
+		F239CD251ECF3D5600BA741E /* angry_birds_cake1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F239CD1E1ECF3D5600BA741E /* angry_birds_cake1.jpg */; };
+		F239CD261ECF3D5600BA741E /* angry_birds_cake2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F239CD1F1ECF3D5600BA741E /* angry_birds_cake2.jpg */; };
+		F239CD271ECF3D5600BA741E /* angry_birds_cake3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F239CD201ECF3D5600BA741E /* angry_birds_cake3.jpg */; };
+		F239CD281ECF3D5600BA741E /* angry_birds_cake4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F239CD211ECF3D5600BA741E /* angry_birds_cake4.jpg */; };
+		F239CD291ECF3D5600BA741E /* angry_birds_cake5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F239CD221ECF3D5600BA741E /* angry_birds_cake5.jpg */; };
+		F239CD2A1ECF3D5600BA741E /* angry_birds_cake6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F239CD231ECF3D5600BA741E /* angry_birds_cake6.jpg */; };
+		F239CD301ECF462300BA741E /* PatternViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F239CD2F1ECF462300BA741E /* PatternViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		F239CD0A1ECF3CFF00BA741E /* CollectionViewPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F239CD0E1ECF3CFF00BA741E /* CollectionViewPatternsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewPatternsUITests.m; sourceTree = "<group>"; };
 		F239CD101ECF3CFF00BA741E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F239CD1D1ECF3D5600BA741E /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		F239CD1E1ECF3D5600BA741E /* angry_birds_cake1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake1.jpg; sourceTree = "<group>"; };
+		F239CD1F1ECF3D5600BA741E /* angry_birds_cake2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake2.jpg; sourceTree = "<group>"; };
+		F239CD201ECF3D5600BA741E /* angry_birds_cake3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake3.jpg; sourceTree = "<group>"; };
+		F239CD211ECF3D5600BA741E /* angry_birds_cake4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake4.jpg; sourceTree = "<group>"; };
+		F239CD221ECF3D5600BA741E /* angry_birds_cake5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake5.jpg; sourceTree = "<group>"; };
+		F239CD231ECF3D5600BA741E /* angry_birds_cake6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake6.jpg; sourceTree = "<group>"; };
+		F239CD2E1ECF462300BA741E /* PatternViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatternViewCell.h; path = ../PatternViewCell.h; sourceTree = "<group>"; };
+		F239CD2F1ECF462300BA741E /* PatternViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatternViewCell.m; path = ../PatternViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,13 @@
 		F239CCE81ECF3CFF00BA741E /* CollectionViewPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F239CD1C1ECF3D3500BA741E /* Images */,
 				F239CCEC1ECF3CFF00BA741E /* AppDelegate.h */,
 				F239CCED1ECF3CFF00BA741E /* AppDelegate.m */,
 				F239CCEF1ECF3CFF00BA741E /* ViewController.h */,
 				F239CCF01ECF3CFF00BA741E /* ViewController.m */,
+				F239CD2E1ECF462300BA741E /* PatternViewCell.h */,
+				F239CD2F1ECF462300BA741E /* PatternViewCell.m */,
 				F239CCF21ECF3CFF00BA741E /* Main.storyboard */,
 				F239CCF51ECF3CFF00BA741E /* Assets.xcassets */,
 				F239CCF71ECF3CFF00BA741E /* LaunchScreen.storyboard */,
@@ -138,6 +158,20 @@
 				F239CD101ECF3CFF00BA741E /* Info.plist */,
 			);
 			path = CollectionViewPatternsUITests;
+			sourceTree = "<group>";
+		};
+		F239CD1C1ECF3D3500BA741E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F239CD1D1ECF3D5600BA741E /* angry_birds_cake.jpg */,
+				F239CD1E1ECF3D5600BA741E /* angry_birds_cake1.jpg */,
+				F239CD1F1ECF3D5600BA741E /* angry_birds_cake2.jpg */,
+				F239CD201ECF3D5600BA741E /* angry_birds_cake3.jpg */,
+				F239CD211ECF3D5600BA741E /* angry_birds_cake4.jpg */,
+				F239CD221ECF3D5600BA741E /* angry_birds_cake5.jpg */,
+				F239CD231ECF3D5600BA741E /* angry_birds_cake6.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +280,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F239CD281ECF3D5600BA741E /* angry_birds_cake4.jpg in Resources */,
+				F239CD261ECF3D5600BA741E /* angry_birds_cake2.jpg in Resources */,
 				F239CCF91ECF3CFF00BA741E /* LaunchScreen.storyboard in Resources */,
 				F239CCF61ECF3CFF00BA741E /* Assets.xcassets in Resources */,
 				F239CCF41ECF3CFF00BA741E /* Main.storyboard in Resources */,
+				F239CD271ECF3D5600BA741E /* angry_birds_cake3.jpg in Resources */,
+				F239CD291ECF3D5600BA741E /* angry_birds_cake5.jpg in Resources */,
+				F239CD251ECF3D5600BA741E /* angry_birds_cake1.jpg in Resources */,
+				F239CD2A1ECF3D5600BA741E /* angry_birds_cake6.jpg in Resources */,
+				F239CD241ECF3D5600BA741E /* angry_birds_cake.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F239CCF11ECF3CFF00BA741E /* ViewController.m in Sources */,
+				F239CD301ECF462300BA741E /* PatternViewCell.m in Sources */,
 				F239CCEE1ECF3CFF00BA741E /* AppDelegate.m in Sources */,
 				F239CCEB1ECF3CFF00BA741E /* main.m in Sources */,
 			);
